@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -10,8 +10,8 @@ export default {
         "gold-soft": "#d4b04a",
       },
       fontFamily: {
-        display: ['"Fraunces"', "Georgia", "serif"],
-        sans: ['"Inter"', "system-ui", "sans-serif"],
+        display: ["Fraunces", "Georgia", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       boxShadow: {
         elegant: "0 30px 60px -30px rgba(28,28,28,0.30), 0 10px 30px -15px rgba(184,151,47,0.25)",
