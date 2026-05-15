@@ -2,14 +2,11 @@ const CHECKOUT_URL = "https://chk.eduzz.com/801E4VKNW7";
 
 function Logo() {
   return (
-    <div className="flex flex-col items-center leading-none">
-      <span className="font-display text-2xl md:text-3xl font-black tracking-tight text-ink">
-        ASCENSÃO <span className="text-gold">PRO</span>
-      </span>
-      <span className="mt-1 text-[9px] md:text-[10px] tracking-[0.25em] text-ink/50 uppercase">
-        Seu potencial máximo na carreira e negócios
-      </span>
-    </div>
+    <img
+  src="/ascensao-logo.png"
+  alt="Ascensão Pro"
+  className="h-10 md:h-12 w-auto"
+/>
   );
 }
 
@@ -245,7 +242,11 @@ export default function App() {
 
       <footer className="border-t border-black/10 py-10 px-5 md:px-8">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-ink/60">
-          <Logo />
+          <img
+  src="/ascensao-logo.png"
+  alt="Ascensão Pro"
+  className="h-8 md:h-10 w-auto"
+/>
           <p>© {new Date().getFullYear()} Ascensão Pro · Todos os direitos reservados.</p>
         </div>
       </footer>
